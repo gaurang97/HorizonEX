@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-navbar color="dark">
+    <ion-title>Server Data</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+<p>{{responseTxt}}</p>
+<button ion-button full (click)="showTable()" >Read From Server</button>
+
+  <button ion-button full color="danger" (click)="disconnect()">Analytics  <ion-icon name="analytics"></ion-icon></button>
+
+</ion-content>
